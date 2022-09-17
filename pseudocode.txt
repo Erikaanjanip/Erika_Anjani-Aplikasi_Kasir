@@ -1,0 +1,27 @@
+START
+Input Total 
+Input Harga
+Input Jumlah_pesanan
+If kode_minuman "1"
+    Output *Vanilla Latte = Rp.14.000
+If kode_minuman "2"
+    Output *Chocolatte = Rp.15.000
+If kode_minuman "3"
+    Output *Matcha Latte = Rp.16.000
+If kode_minuman "4"
+    Output *Sakura Latte = Rp.17.000
+Else
+    Write "Tidak ada"
+END
+
+Write nama_pembeli
+Write kode_minuman
+Write Jumlah_pesanan
+Write harga_pesanan
+Write Uang_pembayaran
+Write kembalian
+END
+
+Write Total
+Read Uang_pembayaran
+Write Uang_pembayaran damn Total
